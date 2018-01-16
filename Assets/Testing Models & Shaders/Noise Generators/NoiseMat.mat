@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NoiseMat
+  m_Shader: {fileID: 4800000, guid: 09d8c7913f11e70488d75b653c23c2b0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeLength: 16.9
+    - _Float0: -2.39
+    - _Float1: 0.5
+    - _Float2: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Height: -0.33
+    - _Lacunarity: 2.48
+    - _MapOffSetX: -0.52
+    - _MapOffSetY: 8.82
+    - _MapScale: 6.08
+    - _Metallic: 0
+    - _Mode: 0
+    - _Noi: 0
+    - _Noise: 0
+    - _NoiseHeight: -1.51
+    - _NoiseOff: 0
+    - _NoiseOffset: 0.6
+    - _NoiseScale: 0.34
+    - _OcclusionStrength: 1
+    - _Octaves: 1
+    - _Parallax: 0.02
+    - _Persistance: 0.87
+    - _RemapedMax: 1
+    - _RemapedMin: 0
+    - _Scale: 8.38
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MapOffSet: {r: 0.65, g: 0.7, b: 0, a: 0}
+    - _NoiseTiling: {r: 6.57, g: 5.63, b: 0, a: 0}
+    - _NoiseTillingOffset: {r: 16.66, g: 4.65, b: 0, a: 0}
+    - _OffSet: {r: 1.13, g: 4.84, b: 0, a: 0}
+    - _Vector0: {r: 0.33, g: 0, b: 0, a: 0}
+    - _Vector1: {r: 2.9, g: 3.82, b: 0, a: 0}
+    - _noise_gen_1_offset: {r: 0.57, g: 0.36, b: 0, a: 0}
+    - _noise_gen_1_param: {r: 9.86, g: -0.08, b: 0.31, a: 0}
+    - _noise_gen_2_offset: {r: 1.01, g: 0.6, b: 0, a: 0}
+    - _noise_gen_2_param: {r: 19.6, g: 0.13, b: 0.24, a: 0.09}
+    - _noise_gen_3_offset: {r: 1.43, g: 1.79, b: 0, a: 0}
+    - _noise_gen_3_param: {r: 3.52, g: 0.06, b: 0.57, a: -0.22}

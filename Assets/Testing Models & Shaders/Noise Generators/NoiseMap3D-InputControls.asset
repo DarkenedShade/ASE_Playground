@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: NoiseMap3D-InputControls
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=14201\n2157;17;1387;682;994.2035;765.4092;1.776853;True;False\nNode;AmplifyShaderEditor.NoiseGeneratorNode;10;559.0604,-287.6025;Float;False;Simplex3D;1;0;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.DynamicAppendNode;13;-190.001,-290.363;Float;False;FLOAT2;4;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.FunctionInput;19;580.2924,-21.939;Float;False;Remaped
+    Max;1;3;False;1;0;FLOAT;1.0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;23;-398.8732,-288.8312;Float;False;Map
+    Scale;1;0;False;1;0;FLOAT;1.0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;22;-280.7759,-114.3072;Float;False;Map
+    OffSet;2;1;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.TFHCRemapNode;15;826.5088,-211.592;Float;True;5;0;FLOAT;0.0;False;1;FLOAT;-1.0;False;2;FLOAT;1.0;False;3;FLOAT;0.0;False;4;FLOAT;1.0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;20;584.2924,-111.939;Float;False;Remaped
+    Min;1;4;False;1;0;FLOAT;0.0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.DynamicAppendNode;7;303.6155,-294.0335;Float;True;FLOAT3;4;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.TextureCoordinatesNode;5;16.78046,-282.3168;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.FunctionInput;21;92.5609,-111.2079;Float;False;Height;1;2;False;1;0;FLOAT;0.0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;1193.141,-285.8694;Float;True;True;Output;0;True;1;0;FLOAT;0.0;False;1;FLOAT;0\nWireConnection;10;0;7;0\nWireConnection;13;0;23;0\nWireConnection;13;1;23;0\nWireConnection;15;0;10;0\nWireConnection;15;3;20;0\nWireConnection;15;4;19;0\nWireConnection;7;0;5;1\nWireConnection;7;1;5;2\nWireConnection;7;2;21;0\nWireConnection;5;0;13;0\nWireConnection;5;1;22;0\nWireConnection;0;0;15;0\nASEEND*/\n//CHKSM=E6715426DD0485E4E1696F5BD22D0C250CA8DC22"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 9
+  m_customNodeCategory: 

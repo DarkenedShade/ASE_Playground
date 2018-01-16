@@ -1,0 +1,1 @@
+found fog shader at https://github.com/MubasshirAhmed/Fog_AmplifyShaderEditor-master

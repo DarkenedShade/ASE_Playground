@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: LongLatToUV
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=14201\n264;85;1624;888;685.5;283.5;1;True;True\nNode;AmplifyShaderEditor.CustomExpressionNode;1;89.5,-117.5;Float;False;float2((1
+    + atan2(In.x, - In.y) / 3.14159265) / 2, acos(In.z) / 3.14159265);1;False;1;True;In;FLOAT3;0,0,0;In;Expr;1;0;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.NormalizeNode;3;-152.5,-133.5;Float;False;1;0;FLOAT3;0,0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;2;-324.5,-100.5;Float;False;Input;3;0;False;1;0;FLOAT3;0,0,1;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;0;441,-69;Float;False;True;Result;0;False;1;0;FLOAT;0.0;False;1;FLOAT;0\nWireConnection;1;0;3;0\nWireConnection;3;0;2;0\nWireConnection;0;0;1;0\nASEEND*/\n//CHKSM=6F796AA13C36578B5FDBC3914A3A24871F026086"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

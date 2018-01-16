@@ -32,3 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/AmplifyShaderEditor/
+Assets/Plugins/Sirenix/
+Assets/PostProcessing/
+Assets/Cinemachine/

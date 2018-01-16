@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: WorldSpaceToViewSpaceDir
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=12101\n309;93;1371;567;1153.081;562.147;1.843554;True;False\nNode;AmplifyShaderEditor.FunctionInput;2;-358.5,-42.5;Float;False;WorldSpaceDir;3;0;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3\nNode;AmplifyShaderEditor.RangedFloatNode;6;-357.5,97.5;Float;False;Constant;_Zero;Zero;0;0;0;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.TransformVariables;3;-400.5,-164.5;Float;False;UNITY_MATRIX_V;0;1;FLOAT4x4\nNode;AmplifyShaderEditor.DynamicAppendNode;5;-149.5,27.5;Float;False;FLOAT4;4;0;FLOAT3;0,0,0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;1;FLOAT4\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;4;87.5,-120.5;Float;False;2;2;0;FLOAT4x4;0.0;False;1;FLOAT4;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;False;1;FLOAT4\nNode;AmplifyShaderEditor.BreakToComponentsNode;7;270.5,12.5;Float;False;FLOAT4;1;0;FLOAT4;0.0;False;16;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.DynamicAppendNode;8;595.5,-36.5;Float;False;FLOAT3;4;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;1;FLOAT3\nNode;AmplifyShaderEditor.FunctionOutput;0;849,-77;Float;False;True;Result;0;1;0;FLOAT3;0.0;False;0\nWireConnection;5;0;2;0\nWireConnection;5;1;6;0\nWireConnection;4;0;3;0\nWireConnection;4;1;5;0\nWireConnection;7;0;4;0\nWireConnection;8;0;7;0\nWireConnection;8;1;7;1\nWireConnection;8;2;7;2\nWireConnection;0;0;8;0\nASEEND*/\n//CHKSM=E9C0B8789F74B87F265344C98F05A0CDC0A97996"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: UVLightRevealFunction
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=13801\n118;68;1624;840;974.3021;692.2471;1;True;False\nNode;AmplifyShaderEditor.RangedFloatNode;9;91.11829,494.6594;Float;False;Constant;_Float1;Float
+    1;2;0;1;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.WireNode;28;502.007,376.7791;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.WorldNormalVector;15;-1566.872,-47.95084;Float;False;1;0;FLOAT3;0,0,0;False;4;FLOAT3;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;17;283.4394,-443.3118;Float;True;3;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;COLOR;0.0;False;1;COLOR\nNode;AmplifyShaderEditor.RangedFloatNode;3;-168.3287,561.0894;Float;False;Property;_DifferenceThreshold;Difference
+    Threshold;1;0;0.0191;0;0.05;0;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;14;-684.9379,-262.3207;Float;True;3;3;0;FLOAT;0.0,0,0,0;False;1;COLOR;0.0;False;2;FLOAT;0,0,0,0;False;1;COLOR\nNode;AmplifyShaderEditor.LightAttenuation;12;-1276.818,-427.5233;Float;False;0;1;FLOAT\nNode;AmplifyShaderEditor.WireNode;27;-12.66606,56.91199;Float;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.ColorNode;4;-932.0204,320.2857;Float;False;Property;_Colortobefiltered;Color
+    to be filtered;2;0;0.4039216,0,1,1;0;5;COLOR;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.RangedFloatNode;16;121.076,-516.5153;Float;False;Property;_Intensity;Intensity;2;0;1;0;0;0;1;FLOAT\nNode;AmplifyShaderEditor.DotProductOpNode;26;-132.7339,300.0196;Float;True;2;0;FLOAT3;0.0,0,0;False;1;FLOAT3;0.0,0,0,0;False;1;FLOAT\nNode;AmplifyShaderEditor.TFHCIf;8;260.1179,450.4594;Float;False;6;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;25;34.77423,-141.1304;Float;True;2;2;0;COLOR;0.0;False;1;FLOAT;0.0;False;1;COLOR\nNode;AmplifyShaderEditor.ComponentMaskNode;6;-697.4209,320.2858;Float;True;True;True;True;False;1;0;COLOR;0,0,0,0;False;1;FLOAT3\nNode;AmplifyShaderEditor.SamplerNode;2;-161.8327,-449.6162;Float;True;Property;_UVReveal;UV
+    Reveal;1;0;Assets/AmplifyShaderEditor/Examples/Official/UVLightReveal/UVLight.jpg;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;1.0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1.0;False;5;COLOR;FLOAT;FLOAT;FLOAT;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-924.1804,91.45794;Float;True;2;2;0;COLOR;0.0;False;1;FLOAT;0.0;False;1;COLOR\nNode;AmplifyShaderEditor.LightColorNode;10;-1293.078,-236.1597;Float;True;0;3;COLOR;FLOAT3;FLOAT\nNode;AmplifyShaderEditor.NormalizeNode;11;-440.0216,325.4857;Float;True;1;0;FLOAT3;0.0,0,0,0;False;1;FLOAT3\nNode;AmplifyShaderEditor.WorldSpaceLightPos;13;-1278.976,-42.85403;Float;True;0;3;FLOAT4;FLOAT3;FLOAT\nNode;AmplifyShaderEditor.NormalizeNode;31;-441.5374,91.31998;Float;True;1;0;FLOAT3;0,0,0,0;False;1;FLOAT3\nNode;AmplifyShaderEditor.ComponentMaskNode;30;-698.266,86.57703;Float;True;True;True;True;False;1;0;COLOR;0,0,0,0;False;1;FLOAT3\nNode;AmplifyShaderEditor.FunctionOutput;0;503.6073,-447.0309;Float;True;True;Output(Emmision);0;True;1;0;COLOR;0.0;False;1;COLOR\nWireConnection;28;0;8;0\nWireConnection;17;0;16;0\nWireConnection;17;1;2;1\nWireConnection;17;2;25;0\nWireConnection;14;0;12;0\nWireConnection;14;1;10;0\nWireConnection;14;2;13;2\nWireConnection;27;0;28;0\nWireConnection;26;0;31;0\nWireConnection;26;1;11;0\nWireConnection;8;0;26;0\nWireConnection;8;1;9;0\nWireConnection;8;3;9;0\nWireConnection;8;5;3;0\nWireConnection;25;0;14;0\nWireConnection;25;1;27;0\nWireConnection;6;0;4;0\nWireConnection;29;0;10;0\nWireConnection;29;1;13;2\nWireConnection;11;0;6;0\nWireConnection;31;0;30;0\nWireConnection;30;0;29;0\nWireConnection;0;0;17;0\nASEEND*/\n//CHKSM=BF468AB19A86586B29AAA39178F016DE84B75565"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 

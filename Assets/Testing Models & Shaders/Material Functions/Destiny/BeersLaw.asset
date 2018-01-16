@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: BeersLaw
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=12101\n309;93;1371;567;570.5;400.5;1;True;False\nNode;AmplifyShaderEditor.FunctionInput;1;-197.5,-199.5;Float;False;Thickness;1;1;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionInput;2;-201.5,-55.5;Float;False;Depth
+    Scale;1;0;False;1;0;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-46.5,-145.5;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.RangedFloatNode;6;110.5,-222.5;Float;False;Constant;_CONST_2p71;CONST_2p71;0;0;2.71;2.71;2.71;0;1;FLOAT\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;4;130.5,-65.5;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;-1.0;False;1;FLOAT\nNode;AmplifyShaderEditor.PowerNode;5;320.5,-150.5;Float;False;2;0;FLOAT;2.71;False;1;FLOAT;0.0;False;1;FLOAT\nNode;AmplifyShaderEditor.FunctionOutput;0;529,-120;Float;False;True;Result;0;1;0;FLOAT;0.0;False;0\nWireConnection;3;0;1;0\nWireConnection;3;1;2;0\nWireConnection;4;0;3;0\nWireConnection;5;0;6;0\nWireConnection;5;1;4;0\nWireConnection;0;0;5;0\nASEEND*/\n//CHKSM=017A75CA643EDB9EF8ACE1EF99280C8AC7B9BE2A"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
